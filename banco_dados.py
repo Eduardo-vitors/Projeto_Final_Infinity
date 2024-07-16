@@ -31,8 +31,8 @@ class SistemaDeGerenciamento:
         )
         ''')
         #Feito para criar exemplos para teste eles ainda estão no Banco de Dados.
-        cursor.execute (" INSERT INTO usuarios (id, nome,senha,tipo) VALUES (1, 'Bruce','Batman','admin'),(2, 'Clark','Superhomen','funcionario'),(3, 'Du','desenho','gerente')")
-        cursor.execute (" INSERT INTO recursos (id, nome,tipo) VALUES (1, 'Câmera de Segurança', 'equipamento')")
+        #cursor.execute (" INSERT INTO usuarios (id, nome,senha,tipo) VALUES (1, 'Bruce','Batman','admin'),(2, 'Clark','Superhomen','funcionario'),(3, 'Du','desenho','gerente')")
+        #cursor.execute (" INSERT INTO recursos (id, nome,tipo) VALUES (1, 'Câmera de Segurança', 'equipamento')")
         conexao.commit()
 
     
